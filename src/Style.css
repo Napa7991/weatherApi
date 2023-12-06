@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.container-Main{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+.searchInp{
+    padding:0.2rem;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+h3{
+    margin:1rem;
+}
+
+.container-box{
+   background-color: teal;
+   height: 200px;
+}
+.part1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:1rem 0;
+    color:white;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
