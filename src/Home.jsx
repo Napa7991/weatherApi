@@ -32,7 +32,7 @@ const Home = () => {
     const enteredCity = e.target.value;
     try {
       const res = await fetch(
-        `http://api.weatherapi.com/v1/forecast.json?key=cbd662859de44b87b6250119230612&q=${enteredCity}&days=3&aqi=no`
+        `https://api.weatherapi.com/v1/forecast.json?key=cbd662859de44b87b6250119230612&q=${enteredCity}&days=3&aqi=no`
       );
       const data = await res.json();
       setCity(enteredCity);
